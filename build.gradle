@@ -27,7 +27,7 @@ buildscript {
 }
 
 dependencies {
-    compile "perses.games:kudens:1.0.0-SNAPSHOT"
+    compile "perses.games:kudens:1.0.0"
 }
 
 task jarSources(type:Jar){

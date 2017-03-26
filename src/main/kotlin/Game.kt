@@ -56,8 +56,7 @@ fun main(args: Array<String>) {
     Game.view.minAspectRatio = 1200f/1400f
     Game.view.maxAspectRatio = 1200f/800f
 
-    Game.clearBlue = 0.5f
-    Game.clearAlpha = 0.5f
+    Game.setClearColor(0f, 0f, 0.5f, 0.5f)
 
     Game.start(GameScreen())
 }

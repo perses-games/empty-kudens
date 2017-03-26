@@ -49,8 +49,7 @@ var game = function (_, Kotlin, $module$kudens) {
     game_0.Game.view.drawMode = DrawMode.LINEAR;
     game_0.Game.view.minAspectRatio = 1200.0 / 1400.0;
     game_0.Game.view.maxAspectRatio = 1200.0 / 800.0;
-    game_0.Game.clearBlue = 0.5;
-    game_0.Game.clearAlpha = 0.5;
+    game_0.Game.setClearColor_7b5o5w$(0.0, 0.0, 0.5, 0.5);
     game_0.Game.start_lbnb05$(new GameScreen());
   }
   var package$main = _.main || (_.main = {});
