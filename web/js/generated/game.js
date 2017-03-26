@@ -8,6 +8,7 @@ var game = function (_, Kotlin, $module$kudens) {
   'use strict';
   var texture_0 = $module$kudens.games.perses.texture;
   var game_0 = $module$kudens.games.perses.game;
+  var text_0 = $module$kudens.games.perses.text;
   var Screen = $module$kudens.games.perses.game.Screen;
   var SpriteBatch = $module$kudens.games.perses.sprite.SpriteBatch;
   var Sprite = $module$kudens.games.perses.sprite.Sprite;
@@ -36,6 +37,7 @@ var game = function (_, Kotlin, $module$kudens) {
   GameScreen.prototype.render = function () {
     this.sprites.draw_kjwdzj$(this.sprite, this.x, this.y, 0.1);
     this.sprites.render();
+    text_0.Texts.drawText_k35s1u$(300.0, game_0.Game.view.height / 2.0, 'Hello Kudens!', 'bold 62pt Arial', 'rgba(255,255,0,0.75)');
   };
   GameScreen.$metadata$ = {
     kind: Kotlin.Kind.CLASS,
@@ -52,10 +54,8 @@ var game = function (_, Kotlin, $module$kudens) {
     game_0.Game.setClearColor_7b5o5w$(0.0, 0.0, 0.5, 0.5);
     game_0.Game.start_lbnb05$(new GameScreen());
   }
-  var package$main = _.main || (_.main = {});
-  var package$kotlin = package$main.kotlin || (package$main.kotlin = {});
-  package$kotlin.GameScreen = GameScreen;
-  package$kotlin.main_kand9s$ = main;
+  _.GameScreen = GameScreen;
+  _.main_kand9s$ = main;
   Kotlin.defineModule('game', _);
   main([]);
   return _;
