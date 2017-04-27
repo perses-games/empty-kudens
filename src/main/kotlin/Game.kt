@@ -1,10 +1,9 @@
-package main.kotlin
-
 import games.perses.game.DrawMode
 import games.perses.game.Game
 import games.perses.game.Screen
 import games.perses.sprite.Sprite
 import games.perses.sprite.SpriteBatch
+import games.perses.text.Texts
 import games.perses.texture.Textures
 import kotlin.browser.document
 import kotlin.js.Math.cos
@@ -42,6 +41,8 @@ class GameScreen: Screen() {
     override fun render() {
         sprites.draw(sprite, x, y, scale = 0.1f)
         sprites.render()
+
+        Texts.drawText(300f, Game.view.height / 2f, "Hello Kudens!", font = "bold 62pt Arial", fillStyle = "rgba(255,255,0,0.75)")
     }
 
 }
