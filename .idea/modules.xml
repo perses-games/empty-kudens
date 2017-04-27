@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/empty-kudens.iml" filepath="$PROJECT_DIR$/.idea/modules/empty-kudens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/empty-kudens_main.iml" filepath="$PROJECT_DIR$/.idea/modules/empty-kudens_main.iml" group="empty-kudens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/empty-kudens_test.iml" filepath="$PROJECT_DIR$/.idea/modules/empty-kudens_test.iml" group="empty-kudens" />
+    </modules>
+  </component>
+</project>
