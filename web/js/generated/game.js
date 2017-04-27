@@ -26,7 +26,7 @@ var game = function (_, Kotlin, $module$kudens) {
     texture_0.Textures.load_puj7f4$('smiley', 'img/smiley.png');
   };
   GameScreen.prototype.closeResources = function () {
-    texture_0.Textures.clear();
+    texture_0.Textures.dispose();
   };
   GameScreen.prototype.update_dleff0$ = function (time, delta) {
     game_0.Game.clearRed = Math.sin(time / 3);

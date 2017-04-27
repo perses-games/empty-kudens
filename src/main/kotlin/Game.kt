@@ -27,7 +27,7 @@ class GameScreen: Screen() {
     }
 
     override fun closeResources() {
-        Textures.clear()
+        Textures.dispose()
     }
 
     override fun update(time: Float, delta: Float) {
