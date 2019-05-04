@@ -6,8 +6,8 @@ import games.perses.sprite.SpriteBatch
 import games.perses.text.Texts
 import games.perses.texture.Textures
 import kotlin.browser.document
-import kotlin.js.Math.cos
-import kotlin.js.Math.sin
+import kotlin.math.cos
+import kotlin.math.sin
 
 /**
  * User: rnentjes
