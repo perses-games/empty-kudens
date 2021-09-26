@@ -1,11 +1,11 @@
-import games.perses.game.DrawMode
-import games.perses.game.Game
-import games.perses.game.Screen
-import games.perses.sprite.Sprite
-import games.perses.sprite.SpriteBatch
-import games.perses.text.Texts
-import games.perses.texture.Textures
-import kotlin.browser.document
+import games.perses.kudens.game.DrawMode
+import games.perses.kudens.game.Game
+import games.perses.kudens.game.Screen
+import games.perses.kudens.sprite.Sprite
+import games.perses.kudens.sprite.SpriteBatch
+import games.perses.kudens.text.Texts
+import games.perses.kudens.texture.Textures
+import kotlinx.browser.document
 import kotlin.math.cos
 import kotlin.math.sin
 
